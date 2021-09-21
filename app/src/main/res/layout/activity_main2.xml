@@ -8,7 +8,7 @@
     tools:context=".MainActivity2">
 
     <EditText
-        android:id="@+id/entry1mail"
+        android:id="@+id/entry1maillog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374" />
+        app:layout_constraintVertical_bias="0.403" />
 
     <EditText
         android:id="@+id/entry1name"
@@ -39,7 +39,7 @@
         app:layout_constraintVertical_bias="0.284" />
 
     <EditText
-        android:id="@+id/entry1pass"
+        android:id="@+id/entry1passlog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -51,7 +51,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.479" />
+        app:layout_constraintVertical_bias="0.517" />
 
     <TextView
         android:id="@+id/textView"
@@ -68,22 +68,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.105" />
 
-    <EditText
-        android:id="@+id/entry1pass1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter password again"
-        android:inputType="textPersonName"
-        android:textColorHint="#F8F5F5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.583" />
-
     <Button
-        android:id="@+id/signup"
+        android:id="@+id/login"
         android:layout_width="320dp"
         android:layout_height="72dp"
         android:text="Sign up"
