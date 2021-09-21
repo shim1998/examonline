@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "591393032030",
+    "project_id": "examonline-e13a7",
+    "storage_bucket": "examonline-e13a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591393032030:android:e8e344046a93204a0ef1cf",
+        "android_client_info": {
+          "package_name": "com.example.examonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591393032030-6s24rafo7e2h3sfc185lsabso6hgkln3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx4u22y0JdEw38EomjCIytuqdK_9o9R-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591393032030-6s24rafo7e2h3sfc185lsabso6hgkln3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
