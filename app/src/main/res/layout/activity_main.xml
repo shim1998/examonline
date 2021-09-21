@@ -27,10 +27,9 @@
         android:scrollbarSize="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.181"
         app:srcCompat="@drawable/lightlapi" />
 
     <ImageView
@@ -40,4 +39,15 @@
         app:srcCompat="@drawable/mit_wpu_logo"
         tools:layout_editor_absoluteX="-24dp"
         tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="587dp"
+        android:layout_height="97dp"
+        android:fontFamily="georgia"
+        android:text="-----------------Quiz Application---------------"
+        android:textColor="#F8F5F5"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="-71dp"
+        tools:layout_editor_absoluteY="526dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
